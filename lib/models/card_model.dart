@@ -12,7 +12,7 @@ class CardModel {
 }
 
 List<CardModel> cards = cardData.map(
-  (item) => CardModel(
+      (item) => CardModel(
     item['user'] as String,
     item['cardNumber']as String,
     item['cardExpired']as String,
